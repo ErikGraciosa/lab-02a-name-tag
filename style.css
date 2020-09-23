@@ -1,35 +1,42 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 
 main {
     width: 400px;
-    height: 300px;
+    height: 280px;
     background-color: red;
     border-radius: 20px;
-    border: solid purple 4px;
+    /* border: solid purple 4px; */
+}
+
+p {
+    padding: 0;
+    margin: 0;
 }
 
 .hello {
     background-color: red;
-    height: 20px;
-    font-size: 60px;
+    height: 80px;
+    font-size: 80px;
     font-weight: 800;
     color: white;
     border-radius: 20px;
     text-align: center;
-    border: solid green 4px;
+    /* border: solid green 4px; */
 }
 
 .my-name-is {
     background-color: red;
-    height: 10px;
+    height: 40px;
     font-size: 30px;
     font-weight: 700;
     color: white;
     text-align: center;
-    border: dotted black 2px;
+    /* border: dotted black 2px; */
 }
 
 .name {
@@ -40,6 +47,6 @@ main {
     font-weight: 900;
     text-align: center;
     padding-top: 20px;
-    border: solid black 2px;
+    /* border: solid black 2px; */
     
 }
